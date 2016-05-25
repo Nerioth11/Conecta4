@@ -13,17 +13,19 @@ Se han modificado los siguientes archivos:
 añadimos una comprobación para comprobar si nos encontramos en un estado final, si es así, comprobamos si la
 partida ha terminado en empate o cuál de los jugadores ha ganado.
 
->>utils.py
+# utils.py
 
 -En la función argmin, añadimos un print que muestra el movimiento, el valor de la heurística 
 y el state.utility.
 
 -En la clase Struct definimos una función de hash que utilizaremos para el patrón memoize.
 
--En la clase TicTacToe modificamos la función display para ofrecer una mejor visualización de la 
+# games.py
+
+En la clase TicTacToe modificamos la función display para ofrecer una mejor visualización de la 
 partida, mostrando colores distintos para cada casilla según si la ficha es O, X o si es un espacio vacío.
 
->>heuristicas.py
+# heuristicas.py
 
 -memoize(f): define el patrón memoize para reducir los tiempos de espera en nuestra heurística, 
 reciclando los estados que han sido previamente calculados.
