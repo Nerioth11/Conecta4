@@ -15,7 +15,7 @@ partida ha terminado en empate o cuál de los jugadores ha ganado.
 
 # utils.py
 
--En la función argmin, añadimos un print que muestra el movimiento, el valor de la heurística 
+- En la función argmin, añadimos un print que muestra el movimiento, el valor de la heurística 
 y el state.utility.
 
 -En la clase Struct definimos una función de hash que utilizaremos para el patrón memoize.
