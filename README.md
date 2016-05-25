@@ -1,5 +1,5 @@
 # Conecta4
-TicTacToe application coded in Python which you can play against or use 2 machines to play against each other.
+Práctica 1 de Fundamentos de los Sistemas Inteligentes: Búsqueda con Oponente
 
 Este trabajo consiste en una implementación del juego "Conecta 4", programado para realizar, tanto partidas entre la IA 
 (utilizando heurísticas propias) y un humano, como para realizar partidas entre nuestra IA y heurísticas realizadas por otros compañeros.
