@@ -38,7 +38,7 @@ reciclando los estados que han sido previamente calculados.
 ha sido ganada o perdida (comprobando state.utility), un valor de  heurística usando la función k_in_row_bueno(),
 evaluando, para cada movimiento legal, la posibilidad de lograr un k_in_row que tiene cada jugador.
 
-- ```k_in_row_bueno(board, move, player, rival, (delta_x, delta_y))``` hemos reutilizado el k_in_row que se nos ha proporcionado
+```k_in_row_bueno(board, move, player, rival, (delta_x, delta_y))``` hemos reutilizado el k_in_row que se nos ha proporcionado
 y lo hemos adaptado para que devuelva un valor de heurística, evaluando si el jugador pasado tiene, desde esa posición,
 la posibilidad de conseguir un 4 en raya o no.
 
