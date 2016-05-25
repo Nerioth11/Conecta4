@@ -6,6 +6,11 @@ Este trabajo consiste en una implementación del juego "Conecta 4", programado p
 Se han modificado los siguientes archivos:
 >>run.py
 
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
+
+
 -obtenerTipoPartida(): permite escoger partida máquina vs máquina o humano vs máquina
 
 -obtenerHeurísticaMáquina(): permite escoger uno de los tres niveles de dificultad (0 random, 1 medio, 
