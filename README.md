@@ -42,13 +42,13 @@ evaluando, para cada movimiento legal, la posibilidad de lograr un k_in_row que 
 y lo hemos adaptado para que devuelva un valor de heurística, evaluando si el jugador pasado tiene, desde esa posición,
 la posibilidad de conseguir un 4 en raya o no.
 
-- Si tenemos una pieza ocupada por el jugador actual, sumamos 10 + 10*k (para premiar que haya 
+ - Si tenemos una pieza ocupada por el jugador actual, sumamos 10 + 10*k (para premiar que haya 
 varias posiciones contiguas que no están ocupadas por el rival).
 
-- Si tenemos un hueco vacío, restamos count_empty_holes() / k (para penalizar menos en el 
+ - Si tenemos un hueco vacío, restamos count_empty_holes() / k (para penalizar menos en el 
 caso de que se hayan encontrado varias posiciones contiguas no ocupadas por el rival).
 
-- Si se ha detectado que desde esa posición hay un k_in_row posible, se devuelve el valor 
+ - Si se ha detectado que desde esa posición hay un k_in_row posible, se devuelve el valor 
 de la heurística, en caso contrario, se devuelve un valor negativo bastante grande.
 	
 - ```heurisiticaRegular(state)``` también utiliza el patrón memoize. Tiene el mismo funcionamiento que heurísticaBuena,
