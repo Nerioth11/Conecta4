@@ -4,7 +4,7 @@ Este trabajo consiste en una implementación del juego "Conecta 4", programado p
 (utilizando heurísticas propias) y un humano, como para realizar partidas entre nuestra IA y heurísticas realizadas por otros compañeros.
 
 Se han modificado los siguientes archivos:
->>run.py
+# run.py
 
   - obtenerTipoPartida(): permite escoger partida máquina vs máquina o humano vs máquina
   - obtenerHeurísticaMáquina(): permite escoger uno de los tres niveles de dificultad (0 random, 1 medio, 
