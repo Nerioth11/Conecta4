@@ -6,7 +6,9 @@ Este trabajo consiste en una implementación del juego "Conecta 4", programado p
 Se han modificado los siguientes archivos:
 # run.py
 
-  - obtenerTipoPartida(): permite escoger partida máquina vs máquina o humano vs máquina
+  - ```sh
+	obtenerTipoPartida()
+	``` permite escoger partida máquina vs máquina o humano vs máquina
   - obtenerHeurísticaMáquina(): permite escoger uno de los tres niveles de dificultad (0 random, 1 medio, 
 2 difícil)
   - obtenerJugadorQueEmpieza(): permite escoger qué jugador mueve en el primer turno, X o O. En el bucle while,
