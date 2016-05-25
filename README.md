@@ -57,10 +57,10 @@ pero no evalua los movimientos legales del rival.
 - ```k_in_row_regular(board, move, rival, (delta_x, delta_y))``` sigue un procedimiento similar que  k_in_row_bueno,
 salvo que no se penalizan los huecos vacíos. 
 
-- Si la posición contiene una ficha del jugador, sumamos 10.
+ - Si la posición contiene una ficha del jugador, sumamos 10.
 
-- Si la posición está vacía sumamos 5, simplificando el cálculo de la heurística.
+ - Si la posición está vacía sumamos 5, simplificando el cálculo de la heurística.
 
-- Si se ha detectado que desde la posición pasada hay un k_in_row posible, se devuelve el valor 
+ - Si se ha detectado que desde la posición pasada hay un k_in_row posible, se devuelve el valor 
 de la heurística, en caso contrario se devuelve 0.
 
